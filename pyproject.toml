@@ -1,0 +1,13 @@
+[project]
+name = "obsidian-indexer"
+version = "2.0.0"
+description = "Incremental Obsidian vault indexer with local API server"
+requires-python = ">=3.11"
+dependencies = [
+    "pyyaml>=6.0.2,<7",
+    "fastapi>=0.115.0,<1",
+    "uvicorn[standard]>=0.34.0,<1",
+]
+
+[tool.uv]
+dev-dependencies = []
